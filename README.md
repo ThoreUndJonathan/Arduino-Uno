@@ -44,3 +44,6 @@ MFS.write("N   ");<br/>
 delay(200);<br/>
 MFS.write("    ");<br/>
 }
+
+## 14/01/2019
+Am Wochenende hat Thore zuhause versucht ein kleines Programm zu schreiben, welches noch leicht fehlerhaft war. Dieses haben wir dann heute überarbeitet und den Fehler behoben. In dem Programm läuft von rechts nach links das Wort "Lade" drei mal durch. Ist dies abgeschlossen, so erscheint auf dem Display das Wort "Go" und das multi-function shield piept kurz auf.
