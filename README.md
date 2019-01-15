@@ -52,5 +52,5 @@ MFS.beep();<br/>
 delay(1000);
 
 ## 15/01/2018
-Ich (Thore, da Jonathan krank ist) habe heute mcih mit den Knöpfen auseinander gestezte und dem gestrigen Programm ein kleines Add-On verpasst, welches bewirkt, dass man nachdem der das Display "Go" schreibt man auf den <b>ersten Knopf<b> drücken kann und der Arduino ein Piepen von sich gibt, sowie "Beep" auf dem Display erscheint. Drückt man den <b>zweiten Knopf<b>, so erhält man auf dem Display eine zufällige Nummer von 1 bis 99. Mit einem Druck auf den <b>dritten und letzten Knopf<b> ehält man ein freundliches "Hi". Dies gilt sowohl für das Display, alsauch für den Pieper, welcher dieses morst.
+Ich (Thore, da Jonathan krank ist) habe heute mcih mit den Knöpfen auseinander gestezte und dem gestrigen Programm ein kleines Add-On verpasst, welches bewirkt, dass man nachdem der das Display "Go" schreibt man auf den <b>ersten Knopf</b> drücken kann und der Arduino ein Piepen von sich gibt, sowie "Beep" auf dem Display erscheint. Drückt man den <b>zweiten Knopf</b>, so erhält man auf dem Display eine zufällige Nummer von 1 bis 99. Mit einem Druck auf den <b>dritten und letzten Knopf</b> ehält man ein freundliches "Hi". Dies gilt sowohl für das Display, alsauch für den Pieper, welcher dieses morst.
 
