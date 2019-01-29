@@ -17,7 +17,7 @@ void loop() {
 if(Serial.available()){
   char degree1.0 = Serial.read();
   int degree1.1 = (int)degree - 48;
-  serial.write
+  serial.write          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   while(!Serial.available())
   char degree2.0 = serial.read();
   
