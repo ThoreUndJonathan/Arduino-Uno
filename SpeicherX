@@ -1,0 +1,26 @@
+#include <Servo.h>
+#include <Wire.h>
+
+Servo servo1;
+
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(9600);
+Serial.println("NUR GANZE ZAHLEN ZWISCHEN NULL UND ACHTZEHN");
+ servo1.attach(5);
+ servo1.write(0);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+if(Serial.available()){
+  char degree1.0 = Serial.read();
+  int degree1.1 = (int)degree - 48;
+  serial.write
+  while(!Serial.available())
+  char degree2.0 = serial.read();
+  
+  servo1.write(
+}
+}
