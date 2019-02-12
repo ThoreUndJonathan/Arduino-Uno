@@ -59,3 +59,6 @@ Das Programm, welches Thore geschrieben hatte, haben wir rekonstruiert, da dies 
 
 ## 22/01/2019
 Heute hebn wir versucht eine Stoppuhr zu programmieren. Dies hat allerdings in der Ausführung nicht funtioniert, da wir scheinbar einen Logikfehler gemacht haben.
+
+## 12/02/2019
+Heute haben wir eine Lösung für das Problem gefunden: indem wir ein 4x4 Tasten-Feld nutzen wollen wir die Steuerung des Krans ohne Eingabe am PC bewerkstelligen. Außerdem haben wir dieses angeschlossen und uns mit seiner Funktionsweise auseinander gesetzt.
