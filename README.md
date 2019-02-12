@@ -7,7 +7,7 @@ Wir haben an einen Arduino Uno eine LED angeschlossen und mit der Hilfe von Luka
 Wir haben uns im Internet über das "multifunction shield" informiert. Beim Versuch einen kopierten Code hochzuladen ist ein Fehler aufgetreten, welchen wir beheben mussten. Dazu mussten wir mehrere Bibliotheken runterladen. Anhand des kopierten Codes haben wir die bereits vorher auf dem Display abgebildete 0 auf selbigem verschoben.
 
 ## 08/01/2019
-In dem YouTube-Video <a href="https://www.youtube.com/watch?v=X7T5sfrgprU">Arduino Multi function Shield</a> haben wir uns über das multi-function shield und seine Funktionen informiert. Wir haben die in dem Video verwendete <a href="https://www.mpja.com/download/hackatronics-arduino-multi-function-shield.pdf">PDF-Datei</a> geöffnet und den Code unter dem Punkt: "Writing to the shield’s digit display" kopiert und ausgeführt und anhand dessen den Befehl für die Darstellung eines Wortes auf dem Display ermittelt. Im Anschluss daran haben wir, wie bei einer Leuchtreklame, den Namen "Jonathan" von rechts nach links durchlaufen lassen.<br/>
+In dem YouTube-Video <a href="https://www.youtube.com/watch?v=X7T5sfrgprU">Arduino Multi function Shield</a> haben wir uns über das multi-function shield und seine Funktionen informiert. Wir haben die in dem Video verwendete <a href="https://www.mpja.com/download/hackatronics-arduino-multi-function-shield.pdf">PDF-Datei</a> geöffnet und den Code unter dem Punkt: "Writing to the shield’s digit display" kopiert und ausgeführt und anhand dessen den Befehl für die Darstellung eines Wortes auf dem Display ermittelt. Im Anschluss daran haben wir, wie bei einer Leuchtreklame "LADE" von rechts nach links durchlaufen lassen.<br/>
 Code:
 
 #include <TimerOne.h><br/>
@@ -20,27 +20,19 @@ MFS.initialize(&Timer1);
 
 MFS.write("    ");<br/>
 delay(200);<br/>
-MFS.write("   J");<br/>
+MFS.write("   L");<br/>
 delay(200);<br/>
-MFS.write("  JO");<br/>
+MFS.write("  LA");<br/>
 delay(200);<br/>
-MFS.write(" JON");<br/>
+MFS.write(" LAD");<br/>
 delay(200);<br/>
-MFS.write("JONA");<br/>
+MFS.write("LADE");<br/>
 delay(200);<br/>
-MFS.write("ONAT");<br/>
+MFS.write("ADE ");<br/>
 delay(200);<br/>
-MFS.write("NATH");<br/>
+MFS.write("DE  ");<br/>
 delay(200);<br/>
-MFS.write("ATHA");<br/>
-delay(200);<br/>
-MFS.write("THAN");<br/>
-delay(200);<br/>
-MFS.write("HAN ");<br/>
-delay(200);<br/>
-MFS.write("AN  ");<br/>
-delay(200);<br/>
-MFS.write("N   ");<br/>
+MFS.write("E   ");<br/>
 delay(200);<br/>
 MFS.write("    ");<br/>
 }
