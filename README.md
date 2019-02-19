@@ -10,14 +10,6 @@ Wir haben uns im Internet über das "multifunction shield" informiert. Beim Vers
 In dem YouTube-Video <a href="https://www.youtube.com/watch?v=X7T5sfrgprU">Arduino Multi function Shield</a> haben wir uns über das multi-function shield und seine Funktionen informiert. Wir haben die in dem Video verwendete <a href="https://www.mpja.com/download/hackatronics-arduino-multi-function-shield.pdf">PDF-Datei</a> geöffnet und den Code unter dem Punkt: "Writing to the shield’s digit display" kopiert und ausgeführt und anhand dessen den Befehl für die Darstellung eines Wortes auf dem Display ermittelt. Im Anschluss daran haben wir, wie bei einer Leuchtreklame "LADE" von rechts nach links durchlaufen lassen.<br/>
 Code:
 
-#include <TimerOne.h><br/>
-#include <Wire.h><br/>
-#include <MultiFuncShield.h>
-
-void setup() {<br/>
-Timer1.initialize();<br/>
-MFS.initialize(&Timer1);
-
 MFS.write("    ");<br/>
 delay(200);<br/>
 MFS.write("   L");<br/>
@@ -29,13 +21,7 @@ delay(200);<br/>
 MFS.write("LADE");<br/>
 delay(200);<br/>
 MFS.write("ADE ");<br/>
-delay(200);<br/>
-MFS.write("DE  ");<br/>
-delay(200);<br/>
-MFS.write("E   ");<br/>
-delay(200);<br/>
-MFS.write("    ");<br/>
-}
+usw.}
 
 ## 14/01/2019
 Am Wochenende hat Thore zuhause versucht ein kleines Programm zu schreiben, welches noch leicht fehlerhaft war. Dieses haben wir dann heute überarbeitet und den Fehler behoben. In dem Programm läuft von rechts nach links das Wort "Lade" drei mal durch. Ist dies abgeschlossen, so erscheint auf dem Display das Wort "Go" und das multi-function shield piept kurz auf.<br/>
