@@ -57,3 +57,6 @@ Wir haben die Ideen für das multi-function shield über Bord geworfen und uns d
 
 ## 12/02/2019
 Heute haben wir eine Lösung für das Problem gefunden: indem wir ein 4x4 Tasten-Feld nutzen wollen wir die Steuerung des Krans ohne Eingabe am PC bewerkstelligen. Außerdem haben wir dieses angeschlossen und uns mit seiner Funktionsweise auseinander gesetzt.
+
+## 19/02/2019
+Heute haben wir an den Arduino das Keypad angeschlossen und den Tasten einzelne Funtionen zugewiesen. So leuchtet bei jedem Tastendruck  eine LED auf. Jedoch unterscheidet sich die Dauer und Häufigkeit des Leuchtens sich von Taste zu Taste.
