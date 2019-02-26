@@ -46,3 +46,9 @@ Heute haben wir eine Lösung für das Problem gefunden: indem wir ein 4x4 Tasten
 
 ## 19/02/2019
 Heute haben wir an den Arduino das Keypad angeschlossen und den Tasten einzelne Funtionen zugewiesen. So leuchtet bei jedem Tastendruck  eine LED auf. Jedoch unterscheidet sich die Dauer und Häufigkeit des Leuchtens sich von Taste zu Taste.
+
+## 25/02/2019
+Am Anfang der Stunde haben wir das Abgabedatum besprochen. Bei dem Versuch das Keypad an den Arduino anzuschließen, ist ein Fehler aufgetreten. Dieser bestand darin, dass die Tasten gespiegelt waren. Die Spiegelachse verlief hierbei über die Tasten: *,8,6 und A. Um dieses Problem zu beheben, haben wir im Programm die Tastenbelegung so geändert, dass den Tasten die richtigen Werte zugeordnet waren. Außerdem haben wir uns dazu entschlossen, einen Roboterarm zu bauen.
+
+## 26/02/2019
+Erst haben wir überlegt, wie wir die Servos einzeln ansteuern. Wärend der Überlegungen wurden wir dazu angeregt, dass wir einen meArm verwenden könnten. Mit Rücksichtsnahme auf die Zeit haben wir uns dazu entschlossen diese Gelegenheit warzunehmen. Im Internet haben wir uns dann Informationen zum Programmieren eines meArms angeeignet. Des weiteren gab es einen <a https://github.com/yorkhackspace/meArm>Beispiel-Code</a> und eine <a https://github.com/yorkhackspace/meArm/blob/master/meArm.h>Library</a> für den meArm, welche wir uns heruntergeladen haben.
