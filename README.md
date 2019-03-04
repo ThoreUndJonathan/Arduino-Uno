@@ -52,3 +52,6 @@ Am Anfang der Stunde haben wir das Abgabedatum besprochen. Bei dem Versuch das K
 
 ## 26/02/2019
 Erst haben wir überlegt, wie wir die Servos einzeln ansteuern. Wärend der Überlegungen wurden wir dazu angeregt, dass wir einen meArm verwenden könnten. Mit Rücksichtsnahme auf die Zeit haben wir uns dazu entschlossen diese Gelegenheit warzunehmen. Im Internet haben wir uns dann Informationen zum Programmieren eines meArms angeeignet. Des weiteren gab es einen <a href= "https://github.com/yorkhackspace/meArm">Beispiel-Code</a> und eine <a href= "https://github.com/yorkhackspace/meArm/blob/master/meArm.h">Library</a> für den meArm, welche wir uns heruntergeladen haben.
+
+## 04/03/2019
+Heute haben wir uns mit den meArm Libraries auseinander gesetzt, da wir noch keinen meArm Vorliegen haben, mit welchem wir arbeiten könnten. Anhand dessen haben wir beispielsweise herausgefunden, dass der erste Pin für die Basis, der Zweite für die Schulter, der Dritte für den Ellbogen und der Vierte für den Greifer ist.
