@@ -10,6 +10,8 @@ Der meArm ist ein Miniatur-Roboterarm, welcher mit einem kleinen Computer, wie e
 
 ![pic1](Bilder/2012-01.jpg "meArm Beispielbild")
 
+
+
 ### Code<a name="code"></a>
 
 ### Projektverlauf<a name="verl"></a>
