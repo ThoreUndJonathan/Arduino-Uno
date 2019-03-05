@@ -55,3 +55,9 @@ Erst haben wir überlegt, wie wir die Servos einzeln ansteuern. Wärend der Übe
 
 ## 04/03/2019
 Heute haben wir uns mit den meArm Libraries auseinander gesetzt, da wir noch keinen meArm Vorliegen haben, mit welchem wir arbeiten könnten. Anhand dessen haben wir beispielsweise herausgefunden, dass der erste Pin für die Basis, der Zweite für die Schulter, der Dritte für den Ellbogen und der Vierte für den Greifer ist.
+
+
+
+
+
+http://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/
