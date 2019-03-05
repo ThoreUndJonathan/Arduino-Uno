@@ -42,7 +42,7 @@ Heute hebn wir versucht eine Stoppuhr zu programmieren. Dies hat allerdings in d
 Wir haben die Ideen für das multi-function shield über Bord geworfen und uns dazu entschieden einen Kran zu bauen, der auf einem Servo steht und eine Seilwinde hat. Außerdem haben wir versucht einen Servo mit dem seriellen Monitor zu steuern, was jedoch nicht funktioniert hat.
 
 ## 12/02/2019
-Heute haben wir eine Lösung für das Problem gefunden: indem wir ein 4x4 Tasten-Feld nutzen wollen wir die Steuerung des Krans ohne Eingabe am PC bewerkstelligen. Außerdem haben wir dieses angeschlossen und uns mit seiner Funktionsweise auseinander gesetzt.
+Heute haben wir eine Lösung für das Problem gefunden: indem wir ein 4x4 Tasten-Feld nutzen wollen wir die Steuerung des Krans ohne Eingabe am PC bewerkstelligen. Außerdem haben wir dieses angeschlossen und uns mit seiner Funktionsweise auseinander gesetzt.http://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/
 
 ## 19/02/2019
 Heute haben wir an den Arduino das Keypad angeschlossen und den Tasten einzelne Funtionen zugewiesen. So leuchtet bei jedem Tastendruck  eine LED auf. Jedoch unterscheidet sich die Dauer und Häufigkeit des Leuchtens sich von Taste zu Taste.
@@ -56,8 +56,5 @@ Erst haben wir überlegt, wie wir die Servos einzeln ansteuern. Wärend der Übe
 ## 04/03/2019
 Heute haben wir uns mit den meArm Libraries auseinander gesetzt, da wir noch keinen meArm Vorliegen haben, mit welchem wir arbeiten könnten. Anhand dessen haben wir beispielsweise herausgefunden, dass der erste Pin für die Basis, der Zweite für die Schulter, der Dritte für den Ellbogen und der Vierte für den Greifer ist.
 
-
-
-
-
-http://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/
+## 05/03/2019
+Mit Ausprobieren haben wir herausgefunden, welche Winkel auf dem Servo am Greifer maximal bzw. minimal eingestellt werden dürfen (max. 132 und min. 83 Grad). Des Weiteren haben wir uns Möglichkeiten überlegt, wie man den meArm steuern kann. Hierbei haben wir auch auf Code aus der bereits genannten Datei zugegriffen.
