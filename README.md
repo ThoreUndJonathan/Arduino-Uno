@@ -58,3 +58,6 @@ Heute haben wir uns mit den meArm Libraries auseinander gesetzt, da wir noch kei
 
 ## 05/03/2019
 Mit Ausprobieren haben wir herausgefunden, welche Winkel auf dem Servo am Greifer maximal bzw. minimal eingestellt werden dürfen (max. 132 und min. 83 Grad). Des Weiteren haben wir uns Möglichkeiten überlegt, wie man den meArm steuern kann. Hierbei haben wir auch auf Code aus der bereits genannten Datei zugegriffen.
+
+## 18/03/2019
+Steuerung geschrieben, übernommenen Code markiert.
