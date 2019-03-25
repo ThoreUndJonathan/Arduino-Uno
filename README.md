@@ -34,6 +34,7 @@ Ich (Thore, da Jonathan krank ist) habe heute mich mit den Knöpfen auseinander 
 
 ## 21/01/2019
 Das Programm, welches Thore geschrieben hatte, haben wir rekonstruiert, da dies auf seinem Laptop geschrieben wurde, und genauere Ideen für ein endgültiges Projekt entworfen.
+![pic1](Bilder/21-01-2019.jpg "Beispielcode")
 
 ## 22/01/2019
 Heute hebn wir versucht eine Stoppuhr zu programmieren. Dies hat allerdings in der Ausführung nicht funtioniert, da wir scheinbar einen Logikfehler gemacht haben.
