@@ -63,5 +63,6 @@ Mit Ausprobieren haben wir herausgefunden, welche Winkel auf dem Servo am Greife
 
 ## 18/03/2019
 Heute haben wir die Steuerung für den meArm programmiert und den Code, welchen wir übernommen haben markiert.
+![pic3](Bilder/18-03-2019.png "Beispielcode")
 
 ## 25/03/2019
