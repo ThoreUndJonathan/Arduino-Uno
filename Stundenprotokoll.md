@@ -66,3 +66,4 @@ Heute haben wir die Steuerung für den meArm programmiert und den Code, welchen 
 ![pic3](Bilder/18-03-2019.png "Beispielcode")
 
 ## 25/03/2019
+Da am 26.03.2019 das Stundenprotokoll abgegeben werden muss, haben wir heute dieses überarbeitet, sowie an der Projektseite weitergearbeitet.
