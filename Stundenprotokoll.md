@@ -70,3 +70,8 @@ Da am 26.03.2019 das Stundenprotokoll abgegeben werden muss, haben wir heute die
 
 ## 26/03/2019
 Wir haben heute den meArm an den Arduino angeschlossen und festgestellt, dass die eine 5V-Quelle des Arduinos nicht ausreicht, um die vier Servo zu betreiben. Des Weiteren haben die Servos zwar das Signal empfangen, dass von dem Keypad an den Arduino und von dem Arduino an die Servos gehen soll, jedoch haben sie die Informationen nur teilweise, langsam und sehr ruckelig verarbeitet wurden.
+
+## 10/04/2019
+Thore hat heute die Anweisung Herrn Buhls befolgt und nach dem Motto "Prove of Concept" einen Code geschrieben, um mit dem Keypad und dem Aruino wenigstens einen Servo anzusteuern.
+
+## 11/04/2019
