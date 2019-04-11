@@ -10,7 +10,7 @@ Der meArm ist ein Miniatur-Roboterarm, welcher mit einem kleinen Controllerboard
 
 ![pic1](Bilder/2012-01.jpg "meArm Beispielbild")
 
-Diese Servos werden von dem Arduino über einen PWM-Pin angesteuert und mit einer 5V-Spannung versorgt. Da der Arduino aber nur zwei Erdungen hat und nur einen 5V-Pin, muss man mit einem Steckbrett die Versorgung verteilen. 
+Diese Servos werden von dem Arduino über einen PWM-Pin angesteuert und mit einer 5V-Spannung versorgt. Da ein 5V-Pin nicht ausreicht, muss man mit einem Steckbrett eine externe 9V-Stromquelle anschließen.
 
 
 
