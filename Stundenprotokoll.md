@@ -75,3 +75,4 @@ Wir haben heute den meArm an den Arduino angeschlossen und festgestellt, dass di
 Thore hat heute die Anweisung Herrn Buhls befolgt und nach dem Motto "Prove of Concept" einen Code geschrieben, um mit dem Keypad und dem Aruino wenigstens einen Servo anzusteuern.
 
 ## 11/04/2019
+Wir haben unsere Projektseite fertiggestellt und kleinere Fehler im Code behoben, sowie diesen etwas kompakter gestaltet.
