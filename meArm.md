@@ -10,8 +10,8 @@ Der meArm ist ein Miniatur-Roboterarm, welcher mit einem kleinen Controllerboard
 
 ![pic1](Bilder/2012-01.jpg "meArm Beispielbild")
 
-Diese Servos werden von dem Arduino über einen PWM-Pin angesteuert und mit einer 5V-Spannung versorgt. Da ein 5V-Pin nicht ausreicht, muss man mit einem Steckbrett eine externe 9V-Stromquelle anschließen. Um den meArm zu kontrollieren kann man verschiedenste Kontrollmittel, wie Joysticks oder Tastenfelder verwenden.
-Das Keypad setzt sich aus vier Drucksensoren zusammen
+Diese Servos werden von dem Arduino über einen PWM-Pin angesteuert und mit einer 5V-Spannung versorgt. Da ein 5V-Pin nicht ausreicht, muss man mit einem Steckbrett eine externe 9V-Stromquelle anschließen. Um den meArm zu kontrollieren kann man verschiedenste Kontrollmittel, wie Joysticks oder Tastenfelder verwenden.<br>
+Das Keypad setzt sich aus 4x4 Knöpfen zusammen und hat 8 Pinanschlüsse. Auf vier dieser Pins, genauer gesagt die vier Pins der Spalten, wird ein Signal ausgegeben. Wenn nun einer der 16 Knöpfe gedrückt wird bricht das Signal der Spalte dieses Pins ab, was vom Arduino regisrtiert und vermerkt wird. Dieser stoppt die Signale auf den Pins der Spalten und  gibt nacheinander Signale auf den Pins der Reihen aus. Wird nun ein Signal auf dem Pin der Spalte, auf welcher vorher das Signal durch den Knopfdruck entfiel, empfangen, so steht die Position des Knopfs fest und  damit auch der Wert.
 
 
 
