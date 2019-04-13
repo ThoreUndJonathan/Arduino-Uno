@@ -1,4 +1,4 @@
-#include <Keypad.h>
+#include <Keypad.h>                   //Der nchfolgende Code ist bis Zeile 21 ist diesem Link zu entenehmen: http://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/ . Die Ausnahmen bestehen in den Zeilen 2, 4 und 16.
 #include <Servo.h>
 
 Servo bspServo;
